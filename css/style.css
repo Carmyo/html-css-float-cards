@@ -1,8 +1,62 @@
-h1 {
-    text-align: center;
-    color: rgb(153, 22, 131);
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-p {
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Fredoka One', sans-serif;
     text-align: center;
+    color: rgb(153, 22, 131);
+    padding-top: 100px;
+}
+
+.Lorem {
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*cards*/
+
+
+
+.cards {
+
+    background-color: black;
+    color: white;
+    width: calc(100% / 3);
+    float: left;
+    margin: 15px 15px;
+}
+
+.propic {
+    float: left;
+    width: 120px;
+    margin-right: 25px;
+
+}
+
+.description {
+    margin-top: 25px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mail {
+    color: rgb(65, 65, 201);
 }
